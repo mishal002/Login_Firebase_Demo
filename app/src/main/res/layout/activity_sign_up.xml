@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp">
+
+    <ImageView
+        android:id="@+id/LoginPage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/blurbackground"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:text="Create New Account"
+            android:textColor="@color/black"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="30dp"/>
+
+        <EditText
+            android:id="@+id/edt_Email"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:background="@drawable/blur"
+            android:layout_marginTop="20dp"
+            android:ems="14"
+            android:hint="Enter Email"
+            android:paddingStart="10dp"
+            />
+
+        <EditText
+            android:id="@+id/edt_Password"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/blur"
+            android:ems="14"
+            android:hint="Enter Password"
+            android:paddingStart="10dp" />
+
+        <EditText
+            android:id="@+id/edt_conform_password"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/blur"
+            android:ems="14"
+            android:hint="Conform Password"
+            android:paddingStart="10dp" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="I Agree With ter And Condition" />
+
+
+
+        <Button
+            android:id="@+id/sign_in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gradient"
+            android:ems="15"
+            android:layout_marginTop="30dp"
+            android:text="Sign In" />
+
+
+        <TextView
+            android:id="@+id/back_page"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I Have Already Acccount!"
+            android:layout_marginTop="10dp"/>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

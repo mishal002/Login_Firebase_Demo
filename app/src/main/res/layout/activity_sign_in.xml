@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignIn">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/blurbackground">
+
+    </ImageView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:text="Sign in"
+            android:textColor="@color/black"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edt_Email"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:background="@drawable/blur"
+            android:layout_marginTop="20dp"
+            android:ems="14"
+            android:hint="Enter Email"
+            android:paddingStart="10dp"
+            />
+
+        <EditText
+            android:id="@+id/edt_password"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:inputType="textPassword"
+            android:background="@drawable/blur"
+            android:ems="14"
+            android:hint="Password"
+            android:paddingStart="10dp" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Remember Me" />
+
+
+
+        <Button
+            android:id="@+id/login_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gradient"
+            android:ems="15"
+            android:layout_marginTop="30dp"
+            android:text="Sign In" />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forget Password?"
+            android:layout_marginTop="10dp"/>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gradient"
+            android:drawableStart="@drawable/google28"
+            android:ems="15"
+            android:paddingStart="15dp"
+            android:layout_margin="10dp"
+            android:text="Login With Google"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gradient"
+            android:drawableStart="@drawable/facebook1"
+            android:layout_margin="10dp"
+            android:ems="15"
+            android:text="Login With Facebook"
+            android:paddingStart="15dp"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create New Account"
+            android:layout_marginTop="10dp"
+            android:id="@+id/back_page"/>
+
+
+
+    </LinearLayout>
+</RelativeLayout>
