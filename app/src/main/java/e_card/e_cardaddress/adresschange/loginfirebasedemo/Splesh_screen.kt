@@ -10,12 +10,11 @@ class Splesh_screen : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splesh_screen)
 
-        Handler().postDelayed(Runnable { //This method will be executed once the timer is over
-            // Start your app main activity
+
+        Handler().postDelayed(Runnable {
             val i = Intent(this, SignIn::class.java)
             startActivity(i)
-            // close this activity
             finish()
-        }, 3000)
+        }, 500)
     }
 }

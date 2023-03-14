@@ -13,6 +13,7 @@
         android:src="@drawable/blurbackground">
 
     </ImageView>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -25,87 +26,102 @@
             android:fontFamily="sans-serif-light"
             android:text="Sign in"
             android:textColor="@color/black"
-            android:textSize="35dp"
-            android:textStyle="bold" />
+            android:textSize="35sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
 
         <EditText
             android:id="@+id/edt_Email"
             android:layout_width="wrap_content"
             android:layout_height="45dp"
-            android:background="@drawable/blur"
             android:layout_marginTop="20dp"
+            android:background="@drawable/blur"
             android:ems="14"
-            android:hint="Enter Email"
-            android:paddingStart="10dp"
-            />
+            android:hint="hello@gmail.com"
+            android:paddingStart="10dp" />
 
         <EditText
             android:id="@+id/edt_password"
             android:layout_width="wrap_content"
             android:layout_height="45dp"
             android:layout_marginTop="10dp"
-            android:inputType="textPassword"
             android:background="@drawable/blur"
             android:ems="14"
-            android:hint="Password"
+            android:hint="Hello@123"
+            android:inputType="text"
             android:paddingStart="10dp" />
 
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
-            android:text="Remember Me" />
-
+            android:text="Remember Me"
+            tools:ignore="HardcodedText" />
 
 
         <Button
             android:id="@+id/login_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
             android:background="@drawable/gradient"
             android:ems="15"
-            android:layout_marginTop="30dp"
-            android:text="Sign In" />
-
+            android:text="Sign In"
+            tools:ignore="HardcodedText" />
 
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
             android:text="Forget Password?"
-            android:layout_marginTop="10dp"/>
+            tools:ignore="HardcodedText" />
 
+        <!--        <com.google.android.material.button.MaterialButton-->
+        <!--            android:id="@+id/material_button"-->
+        <!--            style="@style/Widget.MaterialComponents.Button"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_margin="10dp"-->
+        <!--            android:background="@drawable/gradient"-->
+        <!--            android:drawableStart="@drawable/google28"-->
+        <!--            android:ems="15"-->
+        <!--            android:text="Add to Cart" />-->
 
-        <Button
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/google_login_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_margin="10dp"
             android:background="@drawable/gradient"
-            android:drawableStart="@drawable/google28"
             android:ems="15"
             android:paddingStart="15dp"
-            android:layout_margin="10dp"
             android:text="Login With Google"
-            />
+            app:icon="@drawable/google"
+            app:iconSize="22dp"
+            tools:ignore="HardcodedText,RtlSymmetry" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_margin="10dp"
             android:background="@drawable/gradient"
             android:drawableStart="@drawable/facebook1"
-            android:layout_margin="10dp"
             android:ems="15"
+            android:paddingStart="15dp"
             android:text="Login With Facebook"
-            android:paddingStart="15dp"/>
-
+            app:icon="@drawable/facebook1"
+            app:iconSize="22dp"
+            tools:ignore="HardcodedText,RtlSymmetry" />
 
 
         <TextView
+            android:id="@+id/back_page"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Create New Account"
             android:layout_marginTop="10dp"
-            android:id="@+id/back_page"/>
-
+            android:text="Create New Account"
+            tools:ignore="HardcodedText" />
 
 
     </LinearLayout>

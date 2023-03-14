@@ -3,10 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/LoginFirebaseDemo/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1425" />
         <entry key="..\:/LoginFirebaseDemo/app/src/main/res/drawable/blur.xml" value="0.101" />
+        <entry key="..\:/LoginFirebaseDemo/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1425" />
         <entry key="..\:/LoginFirebaseDemo/app/src/main/res/layout/activity_main.xml" value="0.2212962962962963" />
-        <entry key="..\:/LoginFirebaseDemo/app/src/main/res/layout/activity_sign_in.xml" value="0.340625" />
-        <entry key="..\:/LoginFirebaseDemo/app/src/main/res/layout/activity_sign_up.xml" value="0.3546875" />
+        <entry key="..\:/LoginFirebaseDemo/app/src/main/res/layout/activity_sign_in.xml" value="0.33" />
+        <entry key="..\:/LoginFirebaseDemo/app/src/main/res/layout/activity_sign_up.xml" value="0.2212962962962963" />
         <entry key="..\:/LoginFirebaseDemo/app/src/main/res/layout/activity_splesh_screen.xml" value="0.10719530102790015" />
       </map>
     </option>
